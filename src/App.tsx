@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <div className="p-4 pt-16">
+        <div className="py-4 pt-16">
           <h1 className="text-center text-6xl">Uno Battle</h1>
           <Routes>
             <Route path="/" element={<StartPage />} />
