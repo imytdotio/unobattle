@@ -1,15 +1,13 @@
 import Header from "../Components/Header";
 import { useParams } from "react-router-dom";
+import InfoRow from "../Components/InfoRow";
 
 const HistoryPage = () => {
   const { roomId } = useParams();
   return (
     <div>
       <Header text="History" />
-      <div className="flex justify-between">
-        <p>🚪 Room ID: {roomId}</p>
-        <button>⚙️</button>
-      </div>
+      <InfoRow roomId={roomId}/>
     </div>
   );
 };
