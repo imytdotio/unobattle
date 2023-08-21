@@ -9,7 +9,7 @@ const LiveScorePage = () => {
     <>
       <Header text="Live-score" />
       <InfoRow roomId={roomId} />
-      <div className="grid grid-cols-2 border-collapse">
+      <div className="grid grid-cols-2 border-collapse overflow-scroll">
         <PlayerBlock name="SamuelLofuchai" score="277" isKing={false} />
         <PlayerBlock name="OppaDoctor" score="92" isKing={true} />
         <PlayerBlock name="jkin_cheung" score="632" isKing={false} />
